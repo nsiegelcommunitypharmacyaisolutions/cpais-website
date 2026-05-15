@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pm-teal: #0b5e6b;
+  --pm-teal-light: #4fb4af;
+  --pm-teal-deep: #063b45;
+  --pm-amber: #e8a53a;
+  --pm-amber-deep: #c28526;
+  --pm-ink: #0f2847;
+  --pm-ink-deep: #0a1a2e;
+  --pm-slate: #55708a;
+  --pm-slate-light: #aab8c7;
+  --pm-paper: #fbfcfd;
+  --pm-paper-warm: #f7f9fb;
+  --pm-hairline: #e6ebf1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: var(--pm-paper);
+  color: var(--pm-ink);
+  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Fade-in on scroll */
+.fade-in {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 700ms ease-out,
+    transform 700ms ease-out;
+}
+.fade-in.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Form focus ring */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--pm-teal);
+  outline-offset: 2px;
+}

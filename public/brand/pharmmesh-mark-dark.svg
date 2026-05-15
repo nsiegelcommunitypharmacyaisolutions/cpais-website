@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" role="img" aria-label="PharmMesh">
+  <title>PharmMesh — for dark backgrounds</title>
+  <g stroke="#4FB4AF" stroke-width="4.5" fill="none" stroke-linecap="round">
+    <path d="M 22 48 Q 110 56 198 48" opacity="0.45"></path>
+    <path d="M 22 68 Q 110 92 198 68" opacity="0.59"></path>
+    <path d="M 22 88 Q 110 132 198 88" opacity="0.73"></path>
+    <path d="M 22 108 Q 110 176 198 108" opacity="0.87"></path>
+    <path d="M 22 128 Q 110 224 198 128" opacity="1"></path>
+  </g>
+  <g transform="translate(110 180) rotate(-18)">
+    <path d="M 0 -18 C -11 -8 -11 8 0 18 C 11 8 11 -8 0 -18 Z" fill="#E8A53A"></path>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#FBFCFD" stroke-width="1" opacity="0.35"></line>
+  </g>
+</svg>
