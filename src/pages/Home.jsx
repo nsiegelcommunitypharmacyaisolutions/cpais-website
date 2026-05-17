@@ -2,7 +2,7 @@ import FadeIn from '../components/FadeIn.jsx';
 import { PrimaryCTA, TextCTA } from '../components/CTAButton.jsx';
 import CTABand from '../components/CTABand.jsx';
 
-const CHESTER_URL = 'https://prometheno.org/';
+const CHESTER_URL = 'https://www.linkedin.com/in/ziyuanguan/';
 
 export default function Home() {
   return (
